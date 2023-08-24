@@ -1,0 +1,98 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "PruebaAnimal",
+            "request": "launch",
+            "mainClass": "main.java.com.softlond.project.poo.PruebaAnimal",
+            "projectName": "Java_6aba0a16"
+        },
+        {
+            "type": "java",
+            "name": "Calculadora",
+            "request": "launch",
+            "mainClass": "main.java.com.softlond.project.Calculadora",
+            "projectName": "Java_6aba0a16"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "factorial",
+            "projectName": "Java_6aba0a16"
+        },
+        {
+            "type": "java",
+            "name": "tablaMultiplicar",
+            "request": "launch",
+            "mainClass": "tablaMultiplicar",
+            "projectName": "Java_6aba0a16"
+        },
+        {
+            "type": "java",
+            "name": "positivoNegativo",
+            "request": "launch",
+            "mainClass": "positivoNegativo",
+            "projectName": "Java_6aba0a16"
+        },
+        {
+            "type": "java",
+            "name": "numeroMayor",
+            "request": "launch",
+            "mainClass": "numeroMayor",
+            "projectName": "Java_6aba0a16"
+        },
+        {
+            "type": "java",
+            "name": "edad",
+            "request": "launch",
+            "mainClass": "edad",
+            "projectName": "Java_6aba0a16"
+        },
+        {
+            "type": "java",
+            "name": "areaPerimetro",
+            "request": "launch",
+            "mainClass": "areaPerimetro",
+            "projectName": "Java_6aba0a16"
+        },
+        {
+            "type": "java",
+            "name": "parImpar",
+            "request": "launch",
+            "mainClass": "parImpar",
+            "projectName": "Java_6aba0a16"
+        },
+        {
+            "type": "java",
+            "name": "par_impar",
+            "request": "launch",
+            "mainClass": "par_impar",
+            "projectName": "Java_6aba0a16"
+        },
+        {
+            "type": "java",
+            "name": "entero",
+            "request": "launch",
+            "mainClass": "entero",
+            "projectName": "Java_6aba0a16"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Java_6aba0a16"
+        }
+    ]
+}
