@@ -3,7 +3,7 @@ import main.java.com.softlond.project.poo.encapsulamiento.Estudiante;
 //import main.java.com.softlond.project.poo.encapsulamiento.Persona;
 //import main.java.com.softlond.project.poo.herencia.MedioTerrestre;
 import main.java.com.softlond.project.poo.encapsulamiento.ModuloInscripcion;
-import main.java.com.softlond.project.poo.encapsulamiento.encapsulamiento2.Foraneo;
+import main.java.com.softlond.project.poo.encapsulamiento2.Foraneo;
 
 
 
@@ -33,9 +33,13 @@ public class App {
         Estudiante estudiante2 = new Estudiante("Kathleen", "389836", 8);
         Estudiante estudiante3 = new Estudiante("Kamilo", "9735767", 32);
 
-        System.out.println(estudiante1.nombre);
-        System.out.println(estudiante1.numeroCedula);
-        System.out.println(estudiante1.edad);
+        System.out.println(estudiante1.getNombre());
+        System.out.println(estudiante1.getNumeroCedula());
+        System.out.println(estudiante1.getEdad());
+
+        System.out.println(estudiante2.getNombre());
+        System.out.println(estudiante2.getNumeroCedula());
+        System.out.println(estudiante2.getEdad());
 
         ModuloInscripcion sistemaInscripcion = new ModuloInscripcion();
         sistemaInscripcion.inscribirEstudiante(estudiante1);
@@ -43,7 +47,7 @@ public class App {
         sistemaInscripcion.inscribirEstudiante(estudiante3);
 
         Foraneo foraneo1 = new Foraneo("Ander", "541638543", 23);
-        
+
         foraneo1.testAccesoProtected();
 
 
