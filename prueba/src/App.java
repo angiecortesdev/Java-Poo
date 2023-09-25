@@ -1,9 +1,10 @@
 //import main.java.com.softlond.project.Calculadora;
+import main.java.com.softlond.project.poo.encapsulamiento.Contaduria;
 import main.java.com.softlond.project.poo.encapsulamiento.Estudiante;
 //import main.java.com.softlond.project.poo.encapsulamiento.Persona;
 //import main.java.com.softlond.project.poo.herencia.MedioTerrestre;
-import main.java.com.softlond.project.poo.encapsulamiento.ModuloInscripcion;
-import main.java.com.softlond.project.poo.encapsulamiento2.Foraneo;
+//import main.java.com.softlond.project.poo.encapsulamiento.ModuloInscripcion;
+//import main.java.com.softlond.project.poo.encapsulamiento2.Foraneo;
 
 
 
@@ -30,27 +31,35 @@ public class App {
 
 
         Estudiante estudiante1 = new Estudiante("Angie", "10234613", 23);
-        Estudiante estudiante2 = new Estudiante("Kathleen", "389836", 8);
-        Estudiante estudiante3 = new Estudiante("Kamilo", "9735767", 32);
+        //Estudiante estudiante2 = new Estudiante("Kathleen", "389836", 8);
+        //Estudiante estudiante3 = new Estudiante("Kamilo", "9735767", 32);
 
-        System.out.println(estudiante1.getNombre());
-        System.out.println(estudiante1.getNumeroCedula());
-        System.out.println(estudiante1.getEdad());
+        //System.out.println(estudiante1.getNombre());
+        //System.out.println(estudiante1.getNumeroCedula());
+        //System.out.println(estudiante1.getEdad());
 
-        System.out.println(estudiante2.getNombre());
-        System.out.println(estudiante2.getNumeroCedula());
-        System.out.println(estudiante2.getEdad());
+        //System.out.println(estudiante2.getNombre());
+        //System.out.println(estudiante2.getNumeroCedula());
+        //System.out.println(estudiante2.getEdad());
 
-        ModuloInscripcion sistemaInscripcion = new ModuloInscripcion();
-        sistemaInscripcion.inscribirEstudiante(estudiante1);
-        sistemaInscripcion.inscribirEstudiante(estudiante2);
-        sistemaInscripcion.inscribirEstudiante(estudiante3);
+        //ModuloInscripcion sistemaInscripcion = new ModuloInscripcion();
+        //sistemaInscripcion.inscribirEstudiante(estudiante1);
+        //sistemaInscripcion.inscribirEstudiante(estudiante2);
+        //sistemaInscripcion.inscribirEstudiante(estudiante3);
 
-        Foraneo foraneo1 = new Foraneo("Ander", "541638543", 23);
+        //Foraneo foraneo1 = new Foraneo("Ander", "541638543", 23);
 
-        foraneo1.testAccesoProtected();
+        //foraneo1.testAccesoProtected();
 
 
+
+        System.out.println(estudiante1.toString());
+        estudiante1.setPromedio(4.5f);
+
+        Contaduria contaduria = new Contaduria();
+
+        float costoMatricula = contaduria.obtenerCostoMatricula(1000000, estudiante1, 2);
+        System.out.println(costoMatricula);
 
     }
 }
