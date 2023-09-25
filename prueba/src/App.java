@@ -1,10 +1,12 @@
 //import main.java.com.softlond.project.Calculadora;
-import main.java.com.softlond.project.poo.encapsulamiento.Contaduria;
-import main.java.com.softlond.project.poo.encapsulamiento.Estudiante;
+//import main.java.com.softlond.project.poo.encapsulamiento.Contaduria;
+//import main.java.com.softlond.project.poo.encapsulamiento.Estudiante;
 //import main.java.com.softlond.project.poo.encapsulamiento.Persona;
 //import main.java.com.softlond.project.poo.herencia.MedioTerrestre;
 //import main.java.com.softlond.project.poo.encapsulamiento.ModuloInscripcion;
 //import main.java.com.softlond.project.poo.encapsulamiento2.Foraneo;
+import main.java.com.softlond.project.poo.clasesabstractas.Circulo;
+import main.java.com.softlond.project.poo.clasesabstractas.Rectangulo;
 
 
 
@@ -13,10 +15,9 @@ public class App {
         //Calculadora.suma(5, 6);
         //Calculadora.resta(8, 4);
 
-        
 
         //MedioTerrestre terrestre1 = new MedioTerrestre(1.5f, 45, 4);
-        
+
         //System.out.println(terrestre1.peso);
         //System.out.println(terrestre1.altura);
         //System.out.println(terrestre1.cantidadLlantas);
@@ -30,7 +31,7 @@ public class App {
         //System.out.println(persona1.edad);
 
 
-        Estudiante estudiante1 = new Estudiante("Angie", "10234613", 23);
+        // Estudiante estudiante1 = new Estudiante("Angie", "10234613", 23);
         //Estudiante estudiante2 = new Estudiante("Kathleen", "389836", 8);
         //Estudiante estudiante3 = new Estudiante("Kamilo", "9735767", 32);
 
@@ -53,13 +54,24 @@ public class App {
 
 
 
-        System.out.println(estudiante1.toString());
-        estudiante1.setPromedio(4.5f);
+        // System.out.println(estudiante1.toString());
+        // estudiante1.setPromedio(4.5f);
 
-        Contaduria contaduria = new Contaduria();
+        // Contaduria contaduria = new Contaduria();
 
-        float costoMatricula = contaduria.obtenerCostoMatricula(1000000, estudiante1, 2);
-        System.out.println(costoMatricula);
+        // float costoMatricula = contaduria.obtenerCostoMatricula(1000000, estudiante1, 2);
+        // System.out.println(costoMatricula);
 
+        //-------------Clases abstractas----------
+
+        Circulo circulo1 = new Circulo(10);
+        //System.out.println(circulo1.calcularArea());
+
+
+         Rectangulo rectangulo1 = new Rectangulo(5, 8);
+        // System.out.println(rectangulo1.calcularArea());
+
+        circulo1.mostrarInfo();
+        rectangulo1.mostrarInfo();
     }
 }
