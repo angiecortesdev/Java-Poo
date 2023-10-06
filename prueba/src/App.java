@@ -5,10 +5,13 @@
 //import main.java.com.softlond.project.poo.herencia.MedioTerrestre;
 //import main.java.com.softlond.project.poo.encapsulamiento.ModuloInscripcion;
 //import main.java.com.softlond.project.poo.encapsulamiento2.Foraneo;
-import main.java.com.softlond.project.poo.clasesabstractas.Circulo;
-import main.java.com.softlond.project.poo.clasesabstractas.Rectangulo;
+//import main.java.com.softlond.project.poo.clasesabstractas.Circulo;
+//import main.java.com.softlond.project.poo.clasesabstractas.Rectangulo;
 
+//import java.util.Scanner;
 
+import main.java.com.softlond.project.poo.interfaces.implementaciones.animales.Animal;
+import main.java.com.softlond.project.poo.interfaces.implementaciones.transporte.Automovil;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -63,15 +66,31 @@ public class App {
         // System.out.println(costoMatricula);
 
         //-------------Clases abstractas----------
-
-        Circulo circulo1 = new Circulo(10);
+//Circulo circulo1 = new Circulo(10);
         //System.out.println(circulo1.calcularArea());
 
 
-         Rectangulo rectangulo1 = new Rectangulo(5, 8);
+         //Rectangulo rectangulo1 = new Rectangulo(5, 8);
         // System.out.println(rectangulo1.calcularArea());
 
-        circulo1.mostrarInfo();
-        rectangulo1.mostrarInfo();
+        // circulo1.mostrarInfo();
+        // rectangulo1.mostrarInfo();
+
+
+       Automovil auto1 = new Automovil();
+
+       auto1.desplazarse();
+       auto1.frenar();
+       System.out.println(auto1.direccionarDesplazamiento("izquierda"));
+
+
+       Animal snake = new Animal();
+       snake.desplazarse();
+       snake.EmitirSonido();
+       snake.frenar();
+       System.out.println(snake.direccionarDesplazamiento("Derecha"));
+
+
     }
+
 }

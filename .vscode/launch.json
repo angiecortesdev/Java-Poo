@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Arrays",
+            "request": "launch",
+            "mainClass": "main.java.com.softlond.project.poo.arrays.Arrays",
+            "projectName": "Java-Poo_566cc9f5"
+        },
+        {
+            "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "App",
